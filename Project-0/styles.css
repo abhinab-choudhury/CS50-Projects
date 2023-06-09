@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: arial,sans-serif;
+    font-size: 18px; 
+}
+
+.header {
+    padding: 20px;
+    margin: 25px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.header a{
+    color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.body img[src="https://tse1.mm.bing.net/th?id=OIP.SqEICC59PL1VrdefhGEqqgHaCg&pid=Api&rs=1&c=1&qlt=95&w=365&h=123"]{
+    margin-top: 5vh;
+    margin-left: 35vw;
+    margin-bottom: 0px;
+}
+
+.body{
+    padding: 10px;
+    margin: 10px;
+}
+
+form {
+    padding-top: 5px;
+    margin: 10px;
+}
+
+form input {
+    border: 1px solid rgb(239, 239, 239);
+    background-color: rgb(239, 239, 239);
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.649);
+    margin: 30px;
+    width: 200px;
+    height: 30px;
+}
+form input:hover {
+    box-shadow: 2px 2px 10px rgb(223, 221, 221);
+    border-color: 1mm solid rgb(223, 221, 221);
+}
+form input[name="q"] {
+    margin-top: 20px;
+    margin-left: 28vw;
+    border-radius: 100px;
+    border: 0.001pc solid rgb(102, 99, 99);
+    background-color: white;
+    padding-left: 20px;
+    width: 580px;
+    height: 45px;
+}
+form input[name="q"]:hover {
+    box-shadow: 2px 2px 10px rgb(223, 221, 221);
+    border-color: 1mm solid rgb(223, 221, 221);
+}
+
+form input[value="Google Search"] {
+    margin-left: 32vw;
+}
+
+form input[value="Image Search"] {
+    width: 230px;
+    margin-left: 40vw;
+}
+
+h2 {
+    color: rgb(205, 25, 25);
+    padding: 25px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h5 {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+form p{
+    display: inline;
+    font-size: 13px;
+}
+
+input.advanced_search {
+    font-family: arial,sans-serif;
+    padding: 0px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 0px;
+    background-color: rgb(248, 248, 248);
+    color: #bdc1c6;
+    width: 600px;
+}
+input.advanced_search:hover {
+    box-shadow: 2px 2px 10px rgb(223, 221, 221);
+    border-color: 1mm solid rgb(223, 221, 221);
+}
+input[name="as_q"] {
+    padding: 10px;
+    margin-left: 120px;
+}
+input[name="as_epq"] {
+    padding: 10px;
+    margin-left: 52px;
+}
+input[name="as_oq"] {
+    padding: 10px;
+    margin-left: 95px;
+}
+input[name="as_eq"] {
+    padding: 10px;
+    margin-left: 85px;
+}
+input[name="as_nlo"] {
+    padding: 10px;
+    margin-left: 75px;
+}
+form input[name="as_nlo"]{
+    padding: 10px;
+    width: 277px;
+}
+form input[name="as_nhi"] {
+    padding: 10px;
+    width: 277px;
+}
+
+form input[value="Advanced Search"]  {
+    border: 1px solid blue;
+    background-color: rgba(44, 44, 210, 0.804);
+    color: white;
+    font-weight: 500;
+    margin-left: 630px;
+    margin-top: 40px;
+}
+form input[value="Advanced Sarch"]:hover  {
+    box-shadow: rgb(60, 42, 227) 0px 5px 15px;
+    border-color: rgb(27, 27, 187);
+}
